@@ -1,0 +1,6 @@
+string=input("ENTER THE STRING:")
+words = string.split()
+print("EVEN LENGTH WORDS :")
+for word in words:
+    if len(word)%2==0:
+        print(word)

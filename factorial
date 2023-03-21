@@ -1,0 +1,9 @@
+n=int(input("ENTER THE NUMBER :"))
+if(n==0 or n<0):
+    print("VALUE SHOULD BE GREATER THAN 0")
+else:
+    fact=1
+    while(n):
+        fact*=n
+        n=n-1
+        print(f"factorial is {fact}") 

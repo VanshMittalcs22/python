@@ -1,0 +1,9 @@
+n=input("ENTER THE ALPHABET ,DIGIT, SPECIAL CHARACTER :")
+if n>='a' and n<='z':
+    print("\n IT IS A ALPHABET")
+elif n>='A' and n<='Z':
+        print("\n IT IS AN ALPHABET")
+elif n>='0' and n<='9':
+    print("\n IT IS A DIGIT ")
+else:
+    print("\n IT IS A SPECIAL CHARACTER ")

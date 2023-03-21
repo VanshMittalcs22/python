@@ -1,0 +1,7 @@
+num=int(input("ENTER THE NUMBER"))
+sum=0
+while(num>0):
+    reminder=num%10
+    sum=sum+reminder
+    num=num//10
+print("\n SUM OF DIGIT OF GIVEN NUMBER =%d"%sum)

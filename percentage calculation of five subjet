@@ -1,0 +1,22 @@
+a=int(input("ENTER THE NUMBER :"))
+b=int(input("ENTER THE NUMBER :"))
+c=int(input("ENTER THE NUMBER :"))
+d=int(input("ENTER THE NUMBER :"))
+e=int(input("ENTER THE NUMBER :"))
+percentage = (a+b+c+d+e)*100/500
+if percentage >=90:
+    print("\n GRADE  A")
+elif (percentage>=80 and percentage <90):
+    print("\n GRADE B")
+elif (percentage>=70 and percentage <80):
+    print("\n GRADE C")
+elif (percentage>=60 and percentage <70):
+    print("GRADE D")
+elif (percentage >=40 and percentage <60):
+    print("GRADE E")
+else:
+    print("GRADE F")
+
+
+
+

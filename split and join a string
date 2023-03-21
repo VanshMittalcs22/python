@@ -1,0 +1,4 @@
+x="I LOVE GLA "
+y=x.split()
+z=" ".join(y)
+print(z)

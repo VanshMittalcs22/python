@@ -1,0 +1,15 @@
+x=input("ENTER THE STRING :")
+#print(len(x))
+
+
+
+#for i in x:
+ #   print(x)
+
+
+#counter=0
+#while x[counter:]:
+#    counter+=1
+#print(counter)
+
+

@@ -1,0 +1,7 @@
+num=int(input("ENTER THE NUMBER :"))
+num=str(num)
+first_digit=int(num[0])
+last_digit=int(num[-1])
+print(first_digit , last_digit)
+
+

@@ -1,0 +1,7 @@
+c=input("ENTER THE CHARACTER :")
+if c>='a' and c<='z':
+    print("\n IT IS AN ALPHABET")
+elif C>='A' and C<='Z':
+    print("\n IT IS AN ALPHABET")
+else:
+    print("\n IT IS NOT A ALPHABET")

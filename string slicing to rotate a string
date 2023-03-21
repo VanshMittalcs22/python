@@ -1,0 +1,5 @@
+string=input("ENTER THE STRING:")
+rotations = int(input("Enter the number of rotations: "))
+length = len(string)
+rotated_string = string[rotations % length:] + string[:rotations % length]
+print("Rotated string:", rotated_string)

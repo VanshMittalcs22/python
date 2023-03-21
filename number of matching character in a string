@@ -1,0 +1,8 @@
+str1=input("ENTER THE FIRST STRING :")
+str2=input("ENTER THE SECOND STRING :")
+count=0
+for char1 in str1:
+    for char2 in str2:
+        if char1==char2:
+            count+=1
+print("Number of matching characters:",count)

@@ -1,0 +1,10 @@
+str1=input("ENTER THE STRING:")
+str2=input("ENTER THE STRING:")
+uncommon_word=[]
+for word1  in  str1:
+    if word1 not in str2:
+        uncommon_word.append(word1)
+for word2  in str2:
+     if word2 not in str1 :
+        uncommon_word.append(word1)
+print("uncommon words :",uncommon_word)

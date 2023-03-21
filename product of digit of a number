@@ -1,0 +1,7 @@
+num=int(input("ENTER THE NUMBER : "))
+product=1
+while num!=0:
+    reminder=num%10
+    product=product * reminder
+    num=num//10
+print("\n PRODUCT OF DIGIT OF GIVEN NUMBER =%d"%product)

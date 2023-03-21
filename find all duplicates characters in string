@@ -1,0 +1,8 @@
+str1=input("ENTER THE STRING :")
+duplicate=[]
+for i in range(len(str1)):
+    for j in range (i+1,len(str1)):
+        if str1[i]==str1[j] and str1[i] not in duplicate:
+            duplicate.append(str1[i])
+print("DUPLICATES CAHRACTER IN THE STRING ARE:",duplicate)
+
